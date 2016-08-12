@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* Set font */
+@font-face {
+    font-family: 'OpanSans';
+    src: url('../fonts/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans.woff') format('woff'), url('../fonts/OpenSans.ttf') format('truetype'), url('../fonts/OpenSans.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: 'OpanSans', Verdana, Geneva, sans-serif;
+    font-size: 100%;
+}
+
+/*set for all element*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*all image height auto */
+img {
+    height: auto;
+}
+
+/*all p tag set */
+p {
+    line-height: 150%;
+}
+
+/*grid view model set*/
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+    /*test layout line*/
+    /*border: 1px solid black;*/
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+/*For Laptop*/
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+

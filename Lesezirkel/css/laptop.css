@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+/*General Laptop*/
+@media only screen and (min-width: 768px) {
+    .restrictcontent {
+        width: 80%;
+        max-width: 12000px;
+        margin: 0 auto;
+    }
+
+    .pointline {
+        text-align: center;
+    }
+
+    .pointline ul {
+        display: inline-block;
+        list-style-type: none;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 2%;
+    }
+
+    .pointline li {
+        color: #FFF;
+        float: left;
+        font-size: 16px;
+        margin-bottom: 1em;
+        margin-left: 4em;
+        list-style-type: none;
+        padding: 0.25em 0 0 3em;
+        position: relative;
+    }
+
+    .pointline li:before {
+        content: " ";
+        display: block;
+        padding: 12px;
+        border: solid 0.15em white;
+        border-radius: 50%;
+        position: absolute;
+        left: 0.5em;
+        top: 40%;
+        margin-top: -0.5em;
+    }
+
+    .pointline li:after {
+        content: " ";
+        display: block;
+        width: 0.4em;
+        height: 1.0em;
+        border: solid white;
+        border-width: 0 0.15em 0.15em 0;
+        position: absolute;
+        left: 1.1em;
+        top: 50%;
+        margin-top: -0.5em;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .pointline p {
+        font-size: 20px;
+    }
+
+    .heading-two {
+        text-align: center;
+        margin-top: 30px;
+        color: #777777;
+        font-size: 36px;
+    }
+
+    .imglist ul {
+        list-style-type: none;
+        overflow: hidden;
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .imglist li {
+        float: left;
+        padding: 20px;
+    }
+
+    .contentWarp {
+        background-color: #f9f9f9;
+    }
+
+    .content {
+        color: #777777;
+        text-align: center;
+    }
+}

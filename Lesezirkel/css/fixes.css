@@ -1,0 +1,182 @@
+/*Laptop till height 650*/
+@media only screen and (min-width: 768px) and (max-height: 650px) {
+/*    add backgrund check*/
+    .warp{
+        min-height: 640px;
+    }
+
+    /* header content styling */
+    .mainDiv {
+        width: 100%;
+        max-width: 380px;
+        height: auto;
+        background: #ffffff;
+        display: block;
+        border-radius: 10px;
+        box-shadow: 0 0.5px 0.5px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.1) inset;
+        margin-left: 2%;
+        margin-top: -10%;
+
+    }
+
+    .mainDiv .numberCircle {
+        border-radius: 50%;
+        behavior: url(PIE.htc);
+        font-size: 20px;
+        padding: 3px;
+        width: 30px;
+        height: 30px;
+        background: #d10a11;
+        color: white;
+        text-align: center;
+    }
+
+    .mainDiv th, td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    .mainDiv table {
+        margin: 1% 6% 0% 6%;
+    }
+
+    .mainDiv .heading {
+
+        font-size: 160%;
+        margin-top: 10%;
+    }
+
+    .overlapDiv {
+        /*set shape*/
+        background: #eaeaea;
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        text-align: center;
+        display: table-cell;
+
+        color: #000;
+        /*set position*/
+        top: 25px;
+        left: 320px;
+        position: relative;
+    }
+}
+
+/*Laptop after height 650*/
+@media only screen and (min-width: 768px) and (min-height: 650px) {
+
+
+    /* header content styling */
+    .mainDiv {
+        width: 100%;
+        max-width: 380px;
+        height: auto;
+        background: #ffffff;
+        display: block;
+        border-radius: 10px;
+        box-shadow: 0 0.5px 0.5px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.1) inset;
+        margin-left: 2%;
+        margin-top: -2%;
+        margin-bottom: 8%;
+    }
+
+    .mainDiv .numberCircle {
+        border-radius: 50%;
+        behavior: url(PIE.htc);
+        font-size: 24px;
+        padding: 4px;
+        width: 40px;
+        height: 40px;
+        background: #d10a11;
+        color: white;
+        text-align: center;
+    }
+
+    .mainDiv th, td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    .mainDiv table {
+        margin: 1% 6% 0% 6%;
+    }
+
+    .mainDiv .heading {
+
+        font-size: 160%;
+        margin-top: 10%;
+    }
+
+    .overlapDiv {
+        /*set shape*/
+        background: #eaeaea;
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        text-align: center;
+        display: table-cell;
+
+        color: #000;
+        /*set position*/
+        top: 60px;
+        left: 320px;
+        position: relative;
+    }
+
+}
+
+/*All for Background Image Fixes*/
+@media only screen and (min-width: 1400px) {
+.warp {
+    min-height: 900px;
+    height: 95vh;
+}
+    }
+
+@media only screen and (min-width: 1900px) {
+.warp {
+    min-height: 1000px;
+    height: 110vh;
+}
+}
+@media only screen and (width: 2197px) and (min-height: 1024px) {
+    .warp
+    {
+        background-image: url(../imgs/back2.jpg);
+        height: 100vh;
+        background-size: 100% 100%;
+        background-repeat: no-repeat
+    }
+}
+
+/*@media only screen and (min-width: 2500px) {*/
+/*.warp {*/
+    /*min-height: 1000px;*/
+    /*height: 95vh;*/
+/*}*/
+/*}*/
+/*@media only screen and (min-width: 2500px) and (min-height: 1440px) {*/
+    /*.warp*/
+    /*{*/
+        /*min-height: 1024px;*/
+        /*height: 98vh;*/
+    /*}*/
+/*}*/
+
+/*!* spacifc device *!*/
+/*@media only screen and (width: 2880px) and (height: 1800px) {*/
+    /*.warp*/
+    /*{*/
+        /*min-height: 1600px;*/
+        /*height: 90vh;*/
+    /*}*/
+/*}*/
+
+
+
+/*@media only screen and (min-width: 3000px) and (min-height: 2000px){*/
+/*.warp {*/
+    /*min-height: 2000px;*/
+/*}*/
+/*}*/

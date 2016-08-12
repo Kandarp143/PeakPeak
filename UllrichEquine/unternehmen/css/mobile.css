@@ -1,0 +1,107 @@
+/*<!-- 0.General -->*/
+body {
+    background-color: #efefef;
+}
+
+.restrictcontent {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*<!--1.header-->*/
+.header {
+    height: 80px;
+    line-height: 80px;
+    background-color: #ffffff;
+}
+
+.line-one {
+    height: 5px;
+    background-color: #149483;
+    display: block;
+}
+
+.line-two {
+    height: 5px;
+    background-color: #35c3b0;
+    display: block;
+}
+
+#no {
+
+    color: #149483;
+    text-align: center;
+    font-size: 120%;
+    margin-top: 2%;
+}
+
+/*<!--2.content-->*/
+.content-warper {
+    background-color: #ffffff;
+    padding-bottom: 40px;
+}
+
+/*<!--col 2.1 content text-->*/
+.content p {
+    font-size: 90%;
+    color: #6d6d6d;
+}
+
+#heading {
+    color: #149483;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 200%;
+}
+
+.content-heading {
+    color: #149483;
+}
+
+/*<!--col 2.2 content : contact and image -->*/
+.contact {
+    color: #505050;
+}
+
+.contact-text {
+    color: #505050;
+    font-size: 100%;
+}
+
+.contact-heading {
+    color: #149483;
+    margin-bottom: 2%;
+}
+
+.contact img {
+    width: auto;
+    margin-bottom: 5%;
+}
+
+/*<!-- row 3 Footer -- >*/
+.footer {
+    min-height: 35px;
+    line-height: 35px;
+    font-size: 85%;
+    color: #bbb;
+    background-color: #063C34;
+    display: block;
+}
+
+.footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #FFF;
+}
+
+/*Media Q Fixes*/
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+
+}
