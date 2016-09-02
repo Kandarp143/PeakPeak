@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* CSS Document */
+/*General Laptop*/
+@media only screen and (min-width: 768px) {
+    /*<!-- 0.General -->*/
+    body {
+        background-color: #efefef;
+        /*for footer fix*/
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    .restrictcontent {
+        width: 80%;
+        max-width: 12000px;
+        margin: 0 auto;
+    }
+
+    /*<!--1.header-->*/
+    .header {
+        height: 80px;
+        line-height: 80px;
+        background-color: #ffffff;
+    }
+
+    .line-one {
+        height: 5px;
+        background-color: #149483;
+        display: block;
+    }
+
+    .line-two {
+        height: 5px;
+        background-color: #35c3b0;
+        display: block;
+    }
+
+    #no {
+
+        color: #149483;
+        text-align: center;
+        font-size: 130%;
+        font-weight: bolder;
+        float: right;
+        padding: 1% 3% 0% 0%;
+    }
+
+    /*<!--2.content-->*/
+    .content-warper {
+        background-color: #ffffff;
+        padding-bottom: 40px;
+        /*for footer fix*/
+        flex: 1;
+    }
+
+    /*<!--col 2.1 content text-->*/
+    .content p {
+        padding: 1% 2% 0% 4%;
+        font-size: 90%;
+        color: #6d6d6d;
+    }
+
+    #heading {
+        color: #149483;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 200%;
+    }
+
+    .content-heading {
+        color: #149483;
+        text-decoration: none;
+    }
+
+    /*<!--col 2.2 content : contact and image -->*/
+    .contact {
+        color: #505050;
+        padding: 3% 0% 0% 4%;
+    }
+
+    .contact-text {
+        color: #505050;
+        font-size: 100%;
+    }
+
+    .contact-heading {
+        color: #149483;
+        margin-bottom: 2%;
+    }
+
+    .contact-sub-heading {
+        color: black;
+        font-weight: bold;
+    }
+
+    .contact img {
+        width: auto;
+        margin-bottom: 5%;
+    }
+
+    /*<!-- row 3 Footer -- >*/
+    .footer .right {
+        float: right;
+        margin-right: 20%;
+    }
+
+    .footer .left {
+        margin-left: 2%;
+    }
+}
